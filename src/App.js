@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import S3FileUpload from 'react-s3';
+
+//Optional Import
+import { uploadFile } from 'react-s3';
 
 function App() {
   return (
